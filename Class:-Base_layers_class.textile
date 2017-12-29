@@ -1,5 +1,6 @@
+**Note:** You can access layers class globally: `window.Layers` or `document.getElementById('miniPaint').contentWindow.Layers` if outside of iframe.
+
 <div id="main">
-    <h1 class="page-title">Class: Base_layers_class</h1>
 <section>
 <header>
         <h2><span class="attribs"><span class="type-signature"></span></span>Base_layers_class<span class="signature">()</span><span class="type-signature"></span></h2>
