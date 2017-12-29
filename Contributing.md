@@ -6,7 +6,9 @@ Good pull requests—patches, improvements, new features—are a fantastic help.
 
 **Please ask first** before any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
 
-Do not edit **dist/*** directly! Those files are automatically generated. Also better do not edit **src/js/core/*** files if possible.
+**Remember**:
+- Do not edit **dist/*** directly! Those files are automatically generated.
+- Better do not edit **src/js/core/*** files if possible.
 
 **Contributing process:**
 
