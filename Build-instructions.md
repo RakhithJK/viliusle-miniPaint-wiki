@@ -1,3 +1,5 @@
+This project use webpack and npm. Npm helps to install and update all libraries with only 1 simple command `npm update`. Webpack helps to bundle many diffrend js, css files into 1 bundle.js and improve page load time a lot.
+
 ## Requirements
 
 - **npm** - a package manager, helps to manage dependencies.
