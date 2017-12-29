@@ -18,3 +18,5 @@ Good pull requests—patches, improvements, new features—are a fantastic help.
 5. Push to your origin repository.
 6. Create a new Pull Request in GitHub.
 7. Respond to any code review feedback.
+
+**Related**: [Extending system](/viliusle/miniPaint/wiki/Extending)
