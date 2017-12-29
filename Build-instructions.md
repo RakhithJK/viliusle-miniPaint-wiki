@@ -24,4 +24,4 @@ p.s. **index.html** has everything it needs, dont add additional css or js files
 - `webpack-dev-server` - creates http://localhost:8080/ server for easy development.
 - `npm update` - it will install all required libraries from **package.json** file into **node_module** folder.
 
-Related: [Extending app](/viliusle/miniPaint/wiki/Extending)
+Related: [Contributing](/viliusle/miniPaint/wiki/Contributing)
