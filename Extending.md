@@ -23,3 +23,5 @@ miniPaint can be extended, modified by adding:
 
 - To include files, for example something.js, use: `import config from './something.js';` (path must be related). Most common included files will be **src/js/config.js**, **src/js/core/base-layers.js**.
 - Don't forget to export yourclass, for example: `export default Example_class;`
+
+**Related**: [Examples](/viliusle/miniPaint/wiki/Examples)
