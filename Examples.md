@@ -4,4 +4,4 @@
 
 ### 2. Add miniPaint in page as iframe
 
-`<iframe style="width:100%; height:35vw;" src="https://viliusle.github.io/miniPaint/"></iframe>`
+`<iframe style="width:100%; height:1000px;" src="https://viliusle.github.io/miniPaint/"></iframe>`
