@@ -2,4 +2,4 @@
 
 See the list at right for the current pages.
 
-To begin, check [Build-instructions](/viliusle/miniPaint/wiki/Build-instructions)
+To begin, check [Build-instructions](/viliusle/miniPaint/wiki/Build-instructions).
