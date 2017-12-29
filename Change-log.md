@@ -1,0 +1,1 @@
+**Moved to:** [/miniPaint/releases](https://github.com/viliusle/miniPaint/releases)
