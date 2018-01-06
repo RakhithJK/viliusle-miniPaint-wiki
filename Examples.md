@@ -8,4 +8,4 @@
 
 ***
 
-**Note:** You can access layers class globally: `window.Layers` or `document.getElementById('miniPaint').contentWindow.Layers` if outside of iframe.
+**Note:** You can access layers class globally: `window.Layers`, import it using `import` or `document.getElementById('miniPaint').contentWindow.Layers` if you try to access code inside other iframe.
