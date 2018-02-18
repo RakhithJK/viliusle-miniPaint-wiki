@@ -32,7 +32,7 @@ Layer keys:
 |:---|:---|:---:|:---|
 |`add_filter(layer_id, name, params)`|`layer_id`: layer id<br>`name`: filter name<br />`params`: parameters, object| | register new live filter|
 |`autoresize(width, height, layer_id, can_automate = true)`|`width`: width<br>`height`: height<br>`layer_id`: layer id><br>`can_automate `: if allow to resize down | | Resize layer based on dimensions, up - always, if 1 layer - down.|
-|`convert_layer_to_canvas(layer_id, actual_area = false, can_trim)`|`layer_id`: layer id<br>`actual_area`: actual_area used for resized image<br />`can_trim`: can we trim it? | `canvas`| exports (active) layer to canvas for saving|
+|`convert_layer_to_canvas (layer_id, actual_area = false, can_trim)`|`layer_id`: layer id<br>`actual_area`: actual_area used for resized image<br />`can_trim`: can we trim it? | `canvas`| exports (active) layer to canvas for saving|
 |`convert_layers_to_canvas(ctx, layer_id)`|`ctx`: canvas context<br>`layer_id`: layer id|  | exports all layers to canvas for saving |
 |`delete(id, force)`|`id`: layer id<br>`force`: force to delete first layer|  | Removes layer |
 |`delete_filter(layer_id, filter_id)`|`layer_id`: layer id<br>`filter_id`: filter id| | delets live filter |
@@ -49,7 +49,7 @@ Layer keys:
 |`refresh_gui()`|| | renew layers HTML |
 |`render(force=false)`|`force`: force to render now |  | Renders all layers and preview on next frame |
 |`render_object(ctx, object)`|`ctx`: canvas<br>`object`: layer object| | Renders given object on given canvas |
-|`reset_layers(auto_insert=false)`|`auto_insert`: if true, will create 1 empty layer| | removes all layers|
+|`reset_layers (auto_insert=false)`|`auto_insert`: if true, will create 1 empty layer| | removes all layers|
 |`select(id)`|`id`: layer id | | marks layer as selected|
 |`set_opacity(id, value)`|`id`: layer id<br>`value`: opacity value 0-100| | change layer opacity|
 |`toggle_visibility(id)`|`id`: layer id | `layer`| toggle layer visibility|
