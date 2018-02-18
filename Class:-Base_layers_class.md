@@ -1,5 +1,3 @@
-# Base_layers_class
-
 Layers class - manages layers. Each layer is object with various types. You can access layers class globally: `window.Layers` or `document.getElementById('miniPaint').contentWindow.Layers` if outside of iframe. 
 
 Layer keys:
