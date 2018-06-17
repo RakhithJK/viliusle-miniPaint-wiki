@@ -3,10 +3,11 @@ This project use webpack and npm. Npm helps to install and update all libraries 
 ## Requirements
 
 - **npm** - a package manager, helps to manage dependencies.
+
+Also these are required, unless using npx mode (will execute local packages, not global):
+
 - **webpack** - install using `npm install -g webpack` (**optional**)
 - **webpack-dev-server** - install using `npm install -g webpack-dev-server` (optional, but very useful) (**optional**)
-
-p.s. webpack and webpack-dev-server is not required if using npx mode (will execute local packages, not global)
 
 ## Build instructions
 
