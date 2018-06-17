@@ -2,12 +2,7 @@ This project use webpack and npm. Npm helps to install and update all libraries 
 
 ## Requirements
 
-- **npm** - a package manager, helps to manage dependencies. Update it to latest version using `npm install npm@latest -g`
-
-Also these are required, unless using npx mode (will execute local packages, not global):
-
-- **webpack** - install using `npm install -g webpack` (**optional**)
-- **webpack-dev-server** - install using `npm install -g webpack-dev-server` (optional, but very useful) (**optional**)
+- **npm** - package manager, helps to manage dependencies. Update it to latest version using `npm install npm@latest -g`
 
 ## Build instructions
 
@@ -15,17 +10,17 @@ Also these are required, unless using npx mode (will execute local packages, not
 - `cd miniPaint`
 - `npm update` - it will install all dependencies from **package.json** file into **node_module** folder
 - There are 2 ways to edit files:
-  - using `webpack-dev-server` - it will create simple local server with live reload. Start server, edit files and debug using http://localhost:8080/ URL. Recommended way.
-  - Edit files and run `webpack` or `npx webpack` command to generate/update **dist/bundle.js**
+  - Run `npm run server` - it will create simple local server with live reload. Run command, edit files and debug using http://localhost:8080/ URL. **Recommended way**.
+  - Edit files and run `npm run dev` command to generate/update **dist/bundle.js**
 
-p.s. **index.html** has everything it needs, dont add additional css or js files here.
+To generate minified code for production, run `npm run build`.
 
 ## Useful commands
 
-- `webpack` - creates or updates **dist/bundle.js** file, so you changes will be visible.
-- `npx webpack` - same as `webpack`, but will use local webpack, not global.
-- `webpack -p` - build for production
-- `webpack-dev-server` - creates http://localhost:8080/ server for easy development.
 - `npm update` - it will install all required libraries from **package.json** file into **node_module** folder.
+- `npm run-script` - list all possible npm commands. (AKA help)
+- `npm run server` - creates http://localhost:8080/ server for easy development (also live reload)
+- `npm run dev` - creates or updates **dist/bundle.js** file, so you changes will be visible.
+- `npm run build` - build for production
 
 Related: [Contributing](/viliusle/miniPaint/wiki/Contributing)
