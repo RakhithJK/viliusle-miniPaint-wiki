@@ -2,7 +2,7 @@ This project use webpack and npm. Npm helps to install and update all libraries 
 
 ## Requirements
 
-- **npm** - a package manager, helps to manage dependencies.
+- **npm** - a package manager, helps to manage dependencies. Update it to latest version using `npm install npm@latest -g`
 
 Also these are required, unless using npx mode (will execute local packages, not global):
 
