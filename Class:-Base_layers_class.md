@@ -14,6 +14,7 @@ Layer keys:
 - width_original (int)
 - height_original (int)
 - visible (bool)
+- is_vector: (bool)
 - opacity (0-100)
 - order (int)
 - composition (string)
