@@ -19,7 +19,7 @@ Code is build using webpack.
 ## Useful commands
 
 - `npm update` - it will install all required libraries from **package.json** file into **node_module** folder.
-- `npm run-script` - list all possible npm commands. (AKA help)
+- `npm run` - list all possible npm run commands. (AKA help)
 - `npm run server` - creates http://localhost:8080/ server for easy development (also live reload)
 - `npm run dev` - creates or updates **dist/bundle.js** file, so you changes will be visible.
 - `npm run build` - build for production
