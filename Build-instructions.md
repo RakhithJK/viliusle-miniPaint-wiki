@@ -8,7 +8,7 @@ This project use webpack and npm. Npm helps to install and update all libraries 
 
 - `git clone https://github.com/viliusle/miniPaint.git`
 - `cd miniPaint`
-- `npm update` - it will install all dependencies from **package.json** file into **node_module** folder
+- `npm install` - it will install all dependencies from **package.json** file into **node_module** folder
 - There are 2 ways to edit files:
   - Run `npm run server` - it will create simple local server (webpack-dev-server) with live reload. Run command, edit files and debug using http://localhost:8080/ URL. **Recommended way**.
   - Edit files and run `npm run dev` command to generate/update **dist/bundle.js**
