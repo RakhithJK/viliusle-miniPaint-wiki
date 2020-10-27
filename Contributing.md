@@ -14,7 +14,7 @@ Also **please use tabs** for code format.
 
 **Remember**:
 - Do not edit **dist/*** directly! Those files are automatically generated.
-- Better do not edit **src/js/core/*** files if possible.
+- Try not to edit **src/js/core/*** files if possible.
 
 **Contributing process:**
 
