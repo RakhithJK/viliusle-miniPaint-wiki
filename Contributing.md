@@ -1,5 +1,5 @@
 Looking to contribute something to miniPaint? Here's how you can help:
-* **Code cotributing** - help add new features, fix bugs (see "Pull request" section)
+* **Code contributing** - help add new features, fix bugs (see "Pull request" section)
 * **Generate ideas** - have idea how to improve it? Share it by creating new issue.
 * **Test** - use miniPaint, search for issues and report on issues section.
 * **Use and enjoy** - it's free, no download, no install, no purchases, no ads, no tracking.
