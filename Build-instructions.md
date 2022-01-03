@@ -2,7 +2,8 @@ This project use webpack and npm. Npm helps to install and update all libraries 
 
 ## Requirements
 
-- **npm** - package manager, helps to manage dependencies. Update it to latest version using `npm install npm@latest -g`. Make sure you have at least version 6: `npm run build`
+- **[GIT](https://git-scm.com/downloads)** - free and open source distributed version control system.
+- **[npm](https://nodejs.org/)** - package manager, helps to manage dependencies. Update it to latest version using `npm install npm@latest -g`. Make sure you have at least version 6: `npm run build`
 
 ## Build instructions
 
