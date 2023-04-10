@@ -22,6 +22,4 @@ WORKDIR /var/www/miniPaint
 RUN npm update -y
 RUN npm init -y
 CMD bash -c "npm run server"
-
-## 
 ```
