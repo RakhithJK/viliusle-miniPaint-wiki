@@ -2,7 +2,7 @@ There are few versions.
 
 ## [ghost](https://github.com/ghost) [2023-03-01]
 
-Create a dockerfile at the root folder of the project and paste the following code
+Create file `Dockerfile` at the root folder of the project and paste the following code:
 
 ```
 # https://github.com/bluenevus/docker-minipaint
@@ -72,3 +72,26 @@ docker run -d -p 8080:8080 --name minipaint-container minipaint
 ```
 
 Step 5 : Once the container is started, you should be able to reach `http://localhost:8080`
+
+## [CreativeCactus](https://github.com/CreativeCactus) [2023-03-23]
+
+Create file `Dockerfile` at the root folder of the project and paste the following code:
+
+```
+FROM node:alpine3.17
+EXPOSE 8080/tcp
+WORKDIR /app
+COPY ./package* ./
+RUN npm ci
+COPY ./ ./
+RUN npm run build
+ENTRYPOINT [ "npm", "run" ]
+CMD [ "server-prod" ]
+# For development inside docker: -v ./:/app minipaint server
+```
+
+To run, use:
+
+`docker build -t minipaint . && docker run -itp 8080:8080 minipaint`
+
+
