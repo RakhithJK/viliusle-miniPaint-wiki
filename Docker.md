@@ -53,7 +53,7 @@ Step 5 : Once the container is started, you should be able to reach `http://loca
 
 Create file `Dockerfile` at the root folder of the project and paste the following code:
 
-```
+```dockerfile
 FROM node:alpine3.17
 EXPOSE 8080/tcp
 WORKDIR /app
@@ -74,7 +74,7 @@ To run, use:
 
 Create file `Dockerfile` at the root folder of the project and paste the following code:
 
-```
+```dockerfile
 # https://github.com/bluenevus/docker-minipaint
 FROM centos:latest
 EXPOSE 8080/tcp
